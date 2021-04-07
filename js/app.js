@@ -41,7 +41,7 @@ default:
 }
 q2();
 
-
+function q3(){
 let answer3 = prompt('do you think im bad at programming?','yes , no'); // Q3
 switch(answer3.toLowerCase()){
 case 'yes':
@@ -58,7 +58,8 @@ case'n':
 default:
   alert('please choose only yes or no');
 }
-
+}
+q3();
 
 let answer4 = prompt('do you think i can get angry easily?','yes , no'); //Q4
 switch(answer4.toLowerCase()){

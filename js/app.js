@@ -60,6 +60,7 @@ default:
 }
 }
 q3();
+
 function q4(){
 let answer4 = prompt('do you think i can get angry easily?','yes , no'); //Q4
 switch(answer4.toLowerCase()){
@@ -80,6 +81,7 @@ default:
 }
 q4();
 
+function q5 (){
 let answer5 = prompt('do you know me personally?','yes , no'); // Q5
 switch(answer5.toLowerCase()){
 case 'yes':
@@ -96,7 +98,8 @@ case'n':
 default:
   alert('please choose only yes or no');
 }
-
+}
+q5();
 
 let answer6=prompt('guess how tall i am in centimeters?');
 for(let i=0;i<4;i++){

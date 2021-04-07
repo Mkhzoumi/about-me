@@ -122,6 +122,7 @@ for(let i=0;i<4;i++){
 }
 q6();
 
+function q7 (){
 let perfumes = ['one million','blue channel','dior sauvage','versaci eros','spicebomb','creed aventus','cool water','creed','invictus'];
 let answer7 = prompt('i have alot of favourite perfumes, guess one of them?');
 
@@ -143,5 +144,7 @@ for(let i=0;i<6;i++){
   }
   answer7 = prompt('wrong answer, please try another guess?');
 }
+} 
 
+q7();
 alert('okey, your score is '+score+' out of 7');

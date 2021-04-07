@@ -2,6 +2,7 @@
 let score = 0;
 alert('this is a simple test before you can get to this page');
 
+function Q1(){
 let answer1 = prompt('do you think im smoker?','yes , no'); //Q1
 switch(answer1.toLowerCase()){
 case 'yes':
@@ -18,7 +19,8 @@ case'n':
 default:
   alert('please choose only yes or no');
 }
-
+}
+Q1();
 
 let answer2 = prompt('do you think im a short person?','yes , no'); //Q2
 switch(answer2.toLowerCase()){
@@ -36,6 +38,7 @@ case'n':
 default:
   alert('please choose only yes or no');
 }
+
 
 
 let answer3 = prompt('do you think im bad at programming?','yes , no'); // Q3

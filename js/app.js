@@ -101,6 +101,7 @@ default:
 }
 q5();
 
+function q6 (){
 let answer6=prompt('guess how tall i am in centimeters?');
 for(let i=0;i<4;i++){
   if(parseInt(answer6)<190){
@@ -118,7 +119,8 @@ for(let i=0;i<4;i++){
   }
   answer6=prompt('guess how tall i am in centimeters?');
 }
-
+}
+q6();
 
 let perfumes = ['one million','blue channel','dior sauvage','versaci eros','spicebomb','creed aventus','cool water','creed','invictus'];
 let answer7 = prompt('i have alot of favourite perfumes, guess one of them?');

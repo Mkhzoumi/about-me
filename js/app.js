@@ -21,7 +21,7 @@ default:
 }
 }
 Q1();
-
+function q2(){
 let answer2 = prompt('do you think im a short person?','yes , no'); //Q2
 switch(answer2.toLowerCase()){
 case 'yes':
@@ -38,7 +38,8 @@ case'n':
 default:
   alert('please choose only yes or no');
 }
-
+}
+q2();
 
 
 let answer3 = prompt('do you think im bad at programming?','yes , no'); // Q3

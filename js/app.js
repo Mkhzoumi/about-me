@@ -60,7 +60,7 @@ default:
 }
 }
 q3();
-
+function q4(){
 let answer4 = prompt('do you think i can get angry easily?','yes , no'); //Q4
 switch(answer4.toLowerCase()){
 case 'yes':
@@ -77,7 +77,8 @@ case'n':
 default:
   alert('please choose only yes or no');
 }
-
+}
+q4();
 
 let answer5 = prompt('do you know me personally?','yes , no'); // Q5
 switch(answer5.toLowerCase()){

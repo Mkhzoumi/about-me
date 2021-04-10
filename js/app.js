@@ -3,16 +3,14 @@ let score = 0;
 alert('this is a simple test before you can get to this page');
 
 function q1(){
-  let answer1 = prompt('do you think im smoker?','yes , no'); //Q1
+  let answer1 = prompt('do you think im smoker?','yes , no');
   switch(answer1.toLowerCase()){
   case 'yes':
   case 'y':
-    console.log('your answer is wrong, focus.');
     alert('your answer is wrong, focus.');
     break;
   case 'no':
   case'n':
-    console.log('your answer is right.');
     alert('your answer is right.');
     score+=1;
     break;
@@ -23,16 +21,14 @@ function q1(){
 q1();
 
 function q2(){
-  let answer2 = prompt('do you think im a short person?','yes , no'); //Q2
+  let answer2 = prompt('do you think im a short person?','yes , no');
   switch(answer2.toLowerCase()){
   case 'yes':
   case 'y':
-    console.log('your answer is wrong, focus.');
     alert('your answer is wrong, focus.');
     break;
   case 'no':
   case'n':
-    console.log('your answer is right.');
     alert('your answer is right.');
     score+=1;
     break;
@@ -43,16 +39,14 @@ function q2(){
 q2();
 
 function q3(){
-  let answer3 = prompt('do you think im bad at programming?','yes , no'); // Q3
+  let answer3 = prompt('do you think im bad at programming?','yes , no');
   switch(answer3.toLowerCase()){
   case 'yes':
   case 'y':
-    console.log('your answer is wrong, focus.');
     alert('what a shame, your answer is wrong');
     break;
   case 'no':
   case'n':
-    console.log('your answer is right.');
     alert('awsome, your answer is right.');
     score+=1;
     break;
@@ -63,16 +57,14 @@ function q3(){
 q3();
 
 function q4(){
-  let answer4 = prompt('do you think i can get angry easily?','yes , no'); //Q4
+  let answer4 = prompt('do you think i can get angry easily?','yes , no');
   switch(answer4.toLowerCase()){
   case 'yes':
   case 'y':
-    console.log('your answer is wrong, focus.');
     alert('your answer is wrong, focus.');
     break;
   case 'no':
   case'n':
-    console.log('your answer is right.');
     alert('your answer is right.');
     score+=1;
     break;
@@ -83,16 +75,14 @@ function q4(){
 q4();
 
 function q5 (){
-  let answer5 = prompt('do you know me personally?','yes , no'); // Q5
+  let answer5 = prompt('do you know me personally?','yes , no');
   switch(answer5.toLowerCase()){
   case 'yes':
   case 'y':
-    console.log('your answer is wrong, focus.');
     alert('your answer is wrong, focus.');
     break;
   case 'no':
   case'n':
-    console.log('your answer is right.');
     alert('your answer is right.');
     score+=1;
     break;

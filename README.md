@@ -4,8 +4,8 @@
 ## *i asked them questions using arrays and loops and if statement*
 ## *author: humam mkhzoumi*
 
-i was the driver : mohammad hayajneh
-the navigator was : humam mkhzoumi
+## *the driver : mohammad hayajneh*
+## *the navigator: humam mkhzoumi*
 
 
  
